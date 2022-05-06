@@ -2,14 +2,14 @@
 
 void print_alphabet(void)
 {
-	char alph = 'a';
+	char alph;
+       	alph = 97;
 
-	while (alph <= 'z')
+	while (alph <= 123)
 	{
 		_putchar(alph);
 		alph++;
 	}
 	_putchar('\n');
-	return;
 }
 
